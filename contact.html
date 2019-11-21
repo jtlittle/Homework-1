@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Contact Information</title>
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+
+        <div class="header">
+            <div class="navigation-bar">
+                <div class="wrapper">
+                    
+                    <div class="name">
+                        <h1 id="name-color">Jay Little</h1>
+                    </div>
+    
+                    <div class="navigation-wrap">
+                        <div class="nav">
+                            <a href="index.html" id="a1">About Me</a>
+                            <a href="portfolio.html" id="a2">Portfolio</a>
+                            <a href="contact.html" id="a3">Contact</a>
+                        </div>
+                    </div>
+    
+                    <div class="clear-float"></div>
+                </div>    
+            </div>
+        </div>
+    
+<!-- got some help in looking at the code here:https://www.w3schools.com/howto/howto_css_responsive_form.asp -->
+        
+            <div class="contact-form">
+                    <form action="action_page.php">
+                      <div class="row">
+                        <div class="col-25">
+                          <label for="contact-name">Name</label>
+                        </div>
+                        <div class="col-75">
+                          <input type="text" id="contact-name" name="firstname" placeholder="Name">
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-25">
+                          <label for="emailinfo">Email</label>
+                        </div>
+                        <div class="col-75">
+                          <input type="text" id="Email" name="emailinfo" placeholder="Email">
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-25">
+                          <label for="message">Message</label>
+                        </div>
+                        <div class="col-75">
+                          <textarea id="message" name="messageinfo" placeholder="Write your message here" style="height:200px"></textarea>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <input type="submit" value="Submit">
+                      </div>
+                    </form>
+                  </div>
+                </div>
+
+    </section>
+    <div class="footer">
+        <p class="footer-font"> Copyright&copy;</p>
+    </div>
+</body>
+</html>

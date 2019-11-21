@@ -1,0 +1,185 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  color: #777777;
+}
+
+
+body, html {
+    background-image: url(../images/triangle-mosaic.png);
+    width: 100%;
+    height: 100%;  
+}
+
+#name-color {
+  color: white;
+}
+
+hr{
+  border-top: .5px solid #dddddd;
+}
+
+h1.h-font{
+  font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+h1.h-name{
+  color: white;
+}
+
+h1.h-about{
+  color: #4aaaa5;
+}
+
+h4{
+  font-family: 'Georgia', Times, 'Times New Roman', serif;
+  color: white;
+  text-align: center;
+}
+
+p.footer-font{
+  font-size: 9px;
+  color: white;
+}
+
+a{
+  text-decoration: none;
+  font-size: 20px;
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  font-size: 18px;
+  box-sizing: border-box;
+}
+
+textarea {
+  width: 100%;
+  height: 200px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  font-size: 18px;
+  resize: none;
+}
+
+::placeholder{
+  opacity: 0.3;
+}
+
+.contact-form {
+  margin-top: 2%;
+  margin-left: 17%;
+  margin-right: 17%;
+}
+
+#a1{
+  margin-left: 160px;
+}
+
+#a1, #a2{
+  border-right: 1px solid #cccccc;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#a3{
+  padding-left: 15px;
+}
+
+
+.header{
+  width: 100%;
+  height: 76px;
+  background-color: white;
+  border-bottom: 1px solid #cccccc;
+}
+
+.navigation-bar {
+  width: 960px;
+  height: inherit;
+  margin: auto;
+}
+
+.wrapper {
+  /* width: 480px; */
+  justify-content: space-between;
+  display:flex;
+  height: inherit;
+  /* margin: auto;
+  float: left; */
+}
+
+.name{
+  width: 209px;
+  padding: 20px;
+  background-color: #4aaaa5;
+}
+
+.navigation-wrap {
+  width: 50%;
+  height: 100%;
+  margin: auto;
+  float: left;
+}
+
+.nav {
+  padding-top: 26.175px;
+  margin-left: 1%;
+}
+
+.clear-float {
+  margin-top: 20px;
+  margin-bottom: 80px;
+  clear: both;
+  overflow: auto;
+}
+
+.form-container {
+  margin: auto;
+}
+
+.image-container {
+  float: left;
+  margin-right: 10px;
+}
+
+.main{
+  width: 900px;
+  margin: auto;
+  margin-top: 20px;
+  padding: 10px 30px 10px 30px;
+  background-color: white;
+  border: 1px #dddddd solid;
+}
+
+.portfolio-container{
+  width: 250px;
+  height: 150px;
+  margin-right: 30px;
+  margin-bottom: 40px;
+  float: left;
+  position: relative;
+}
+
+.label{
+  position: absolute;
+  background-color: teal;
+  bottom: 10px;
+  width: 250px;
+  height: 30px;
+  padding-top: 10px;
+}
+
+.footer{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  background-color: #666666;
+  text-align: center;
+  border-top: 8px solid #4aaaa5;
+}
